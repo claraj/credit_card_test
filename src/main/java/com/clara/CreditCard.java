@@ -25,13 +25,16 @@ public class CreditCard {
         stringScanner.close();
     }
 
-    public static boolean isValidCreditCard(String number) {
+    public static boolean isValidCreditCard(String cc) {
 
-        //TODO Your code to process the credit card number, and determine if it is valid.
-        // Make sure the tests pass!
+        //TODO Replace with your code to process the credit card number, and determine if it is valid.
+        //TODO Make sure all the tests pass!
+
         return false;
 
-
     }
+
+
+
 
 }
