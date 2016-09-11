@@ -27,7 +27,7 @@ public class CreditCard {
         stringScanner.close();
     }
 
-    public static boolean isValidCreditCard(String cc, char cn) {
+    public static boolean isValidCreditCard(String cc  /*, char cn*/) {  //Keep the method signature the same. The test expects only 1 String argument. 
         String card = cc;
         String checkString = "" + cn;
         int check = Integer.valueOf(checkString);
