@@ -13,7 +13,7 @@ public class CreditCardTest {
         //Some valid credit card numbers
         //We can write individual assertTrue statements....
         assertTrue("4123123412341236 should be valid", CreditCard.isValidCreditCard("4123123412341236"));
-        assertTrue("4000111122223339 should be valid", CreditCard.isValidCreditCard("4123123412341236"));
+        assertTrue("4000111122223339 should be valid", CreditCard.isValidCreditCard("4000111122223339"));
         assertTrue("4123456789012349 should be valid", CreditCard.isValidCreditCard("4123456789012349"));
 
         //Invalid - too short
